@@ -5,10 +5,21 @@
 </template>
 
 <script>
+import { mapState, mapMutations } from 'vuex'
+import store from './store'
+
 export default {
   props: ['data'],
+  computed: {
+    ...mapState({
+      message: 'message'
+    })
+  },
+  methods: {
+    ...mapMutations(['setMessage'])
+  },
   created() {
-    this.message = this.data.message
+    this.setMessage(this.data.message)
   }
 }
 </script>
