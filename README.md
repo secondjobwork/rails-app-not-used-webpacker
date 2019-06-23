@@ -1,24 +1,11 @@
-# README
+# 動機
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+既存Rails appでjQueryを利用しているが、Vuejsを組み込みたかった
 
-Things you may want to cover:
+# Webpackerを導入
 
-* Ruby version
+WebpackでのJSビルド環境を作るために、スタンダードなWebpackerを利用することにした
 
-* System dependencies
+# 構築手順
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+[こちら](https://second-job.work/2019/06/22/rails-set-initialize-data-for-vuejs/)に記載しています。
